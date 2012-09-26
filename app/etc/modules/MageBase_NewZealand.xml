@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageBase_NewZealand>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mdp2012_Localiser/>
+            </depends>
+        </MageBase_NewZealand>
+    </modules>
+</config>

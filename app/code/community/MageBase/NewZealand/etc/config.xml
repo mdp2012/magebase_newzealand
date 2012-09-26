@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageBase_NewZealand>
+            <version>0.1.0</version>
+        </MageBase_NewZealand>
+    </modules>
+
+    <global>
+        <helpers>
+            <magebase_newzealand>
+                <class>MageBase_NewZealand_Helper</class>
+            </magebase_newzealand>
+        </helpers>
+    </global>
+    <default>
+        <localiser>
+            <locales>
+                <magebase_newzealand>MageBase_NewZealand_Localiser</magebase_newzealand>
+            </locales>
+        </localiser>
+    </default>
+</config>
