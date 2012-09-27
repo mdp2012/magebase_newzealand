@@ -7,6 +7,11 @@
     </modules>
 
     <global>
+        <models>
+            <magebase_newzealand>
+                <class>MageBase_NewZealand_Model</class>
+            </magebase_newzealand>
+        </models>
         <helpers>
             <magebase_newzealand>
                 <class>MageBase_NewZealand_Helper</class>
@@ -16,7 +21,7 @@
     <default>
         <localiser>
             <locales>
-                <magebase_newzealand>MageBase_NewZealand_Localiser</magebase_newzealand>
+                <magebase_newzealand>magebase_newzealand/localiser</magebase_newzealand>
             </locales>
         </localiser>
     </default>
